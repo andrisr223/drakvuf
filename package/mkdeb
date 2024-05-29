@@ -7,6 +7,9 @@ set -e
 distro=$(echo $1 | tr ":" "-")
 version="$2"
 xenversion="$3"
+version="1.0"
+xenversion="4.16.1"
+
 
 if [ "$distro" = "" ]
 then
